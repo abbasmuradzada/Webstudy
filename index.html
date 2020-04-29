@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webstudy</title>
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+	<meta charset="utf-8">
+  <link rel="shortcut icon" href="images/fav2.png">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+  
+  <script type="text/javascript" src="./main.js"></script>
+  
+  
+	<script src="https://kit.fontawesome.com/3d8748b2f2.js" crossorigin="anonymous"></script>
+  
+<body>
+
+  <a href="#" class="gototop"><i class="fas fa-arrow-up fa-2x"></i></a>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-">
+  <a class="text-dark navbar-brand" href="#" onclick="yonlendirmain();"><i class="fas fa-laptop-code"></i>  Webstudy</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-dark" href="#" onclick="yonlendirmain();">Əsas Səhifə <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Öyrən
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick="yonlendir();" href="#">Html</a>
+          <a class="dropdown-item" onclick="yonlendir2();" href="#">Css</a>
+          <a class="dropdown-item" onclick="yonlendir3();" href="#">Javascript</a>
+          <a class="dropdown-item" onclick="yonlendir4();" href="#">Bootstrap</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Əlavə</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Haqqımızda
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#company">Şirkət</a>
+          <a class="dropdown-item" href="#team">Komanda Üzvləri</a>
+          <!-- <div class="dropdown-divider"></div> -->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#elaqe">Əlaqə</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Axtar" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Axtar</button>
+    </form>
+  </div>
+</nav>
+
+<div class="men">
+	<div class="pe">
+		<img class="im im1" src="images/a11.jpg">
+	<span class="lea">Learn Web Devel</span><span class="lea2">opment With Me</span> 
+		<img class="im im2" src="images/a2.png">
+		<br>
+		<!-- <span class="cod">Coding is our lifestyle</span> -->
+	</div>
+</div>
+
+<div class="topcard">
+	<div class="card" onclick="yonlendir();">
+  <img class="im12" src="images/2.jpg" alt="HTML" style="width:100%">
+  <h1>HTML</h1>
+  <p class="price">Webstudy</p>
+  <p>HTML (ing. Hypertext Markup Language) — brauzerin oxuya biləcəyi hər hansı sənədi və ya səhifəni yaratmaq üçün xüsusi hipermətn dilidir. </p>
+  <p><button>Ətraflı Öyrən</button></p>
+</div>
+<div class="card2" onclick="yonlendir2();">
+  <img class="im12" src="images/css1.jpg" alt="CSS" style="width:100%">
+  <h1>Css</h1>
+  <p class="price2">Webstudy</p>
+  <p>Stilin kaskad cədvəlləri, CSS (ing. Cascading Style Sheets) — sənədin xarici görünüşünün, işarələmə dilinin istifadəsi ilə yazılmış, formal təsvir dili.</p>
+  <p><button>Ətraflı Öyrən</button></p>
+</div>
+<div class="card3" onclick="yonlendir3();">
+  <img class="im12" src="images/js1.png" alt="JavaScript" style="width:100%">
+  <h1>Javascript</h1>
+  <p class="price3">Webstudy</p>
+  <p>JavaScript – internet səhifələrin yaradılmasında geniş istifadə olunan proqramlşdırma dilidir. JavaScript müxtəlif dilllərdən ilhamlanaraq yaradılmışdır.</p>
+  <p><button>Ətraflı Öyrən</button></p>
+</div>
+<div class="card4" onclick="yonlendir4();">
+  <img class="im12" src="images/b1.jpg" alt="Bootstrap" style="width:100%">
+  <h1>Bootstrap</h1>
+  <p class="price4">Webstudy</p>
+  <p>Bootstrap - veb səhifələri və tətbiqetmələri yaratmaq üçün istifadə olunan açıq mənbə alətidir və HTML və CSS vasitəsiylə yazı növləri, formlar, düymələr....</p>
+  <p><button>Ətraflı Öyrən</button></p>
+</div>	
+</div>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<scroll-container>
+<scroll-page id="team">
+<div class="topwrap">
+  <div class="uzv">
+  <p>Komandamızın Üzvləri</p>
+  </div>
+  <br>
+<div class="wrapper">
+  <div class="top-icons">
+    <i class="fas fa-plus"></i>
+    <i class="fas fa-ellipsis-v"></i>
+    <i class="far fa-heart"></i>
+  </div>
+  
+  <div class="profile">
+    <img src="images/abbas.jpg" class="thumbnail">
+    <!-- <div class="check"><i class="fas fa-check"></i></div> -->
+    <h3 class="name">Abbas Muradzade</h3>
+    <p class="title">CEO & Founder & Web Deweloper</p>
+    <p class="description">Adnsu tələbəsidir, eyni zamanda "Webstudy startup"ının qurucusu ve Web Developerdir. </p>
+    <button type="button" class="btn">Əlavə Et</button>
+  </div>
+  
+  <div class="social-icons">
+    <div class="icon">
+      <a href="/"><i class="fab fa-dribbble"></i></a>
+      <h4>10.3k</h4>
+      <p>Followers</p>
+    </div>
+    
+    <div class="icon">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <h4>4.8k</h4>
+      <p>Followers</p>
+    </div>
+    
+    <div class="icon">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <h4>3.2k</h4>
+      <p>Followers</p>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper w2">
+  <div class="top-icons">
+    <i class="fas fa-plus"></i>
+    <i class="fas fa-ellipsis-v"></i>
+    <i class="far fa-heart"></i>
+  </div>
+  
+  <div class="profile">
+    <img src="images/hasan.jpg" class="thumbnail">
+    <!-- <div class="check"><i class="fas fa-check"></i></div> -->
+    <h3 class="name">Hasan Hasanbayli</h3>
+    <p class="title">HelpDesk Engeneer</p>
+    <p class="description">2015-ci il Iqtisad uiversitetinin məzunudur. AzHelp şirkətində 5 illik iş təcrübəsinə malikdir.</p>
+    <button type="button" class="btn">Əlavə Et</button>
+  </div>
+  
+  <div class="social-icons">
+    <div class="icon">
+      <a href="/"><i class="fab fa-dribbble"></i></a>
+      <h4>2.8k</h4>
+      <p>Followers</p>
+    </div>
+    
+    <div class="icon">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <h4>3.5k</h4>
+      <p>Followers</p>
+    </div>
+    
+    <div class="icon">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <h4>1.9k</h4>
+      <p>Followers</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper w2">
+  <div class="top-icons">
+    <i class="fas fa-plus"></i>
+    <i class="fas fa-ellipsis-v"></i>
+    <i class="far fa-heart"></i>
+  </div>
+  
+  <div class="profile">
+    <img src="images/orxan.jpg" class="thumbnail">
+    <!-- <div class="check"><i class="fas fa-check"></i></div> -->
+    <h3 class="name">Orkhan Mammadli</h3>
+    <p class="title">IOS Developer</p>
+    <p class="description">30 yaşı var. 10 ildir "Apple" şirkətində İOS Developer vəzifəsində çalışır.</p>
+    <button type="button" class="btn">Əlavə Et</button>
+  </div>
+  
+  <div class="social-icons">
+    <div class="icon">
+      <a href="/"><i class="fab fa-dribbble"></i></a>
+      <h4>12.8k</h4>
+      <p>Followers</p>
+    </div>
+    
+    <div class="icon">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <h4>9.7k</h4>
+      <p>Followers</p>
+    </div>
+    
+    <div class="icon">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <h4>11.5k</h4>
+      <p>Followers</p>
+    </div>
+  </div>
+</div>
+</div>
+</scroll-page>
+</scroll-container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<scroll-container>
+<scroll-page id="company">
+<div class="tophaq">
+<div class="haq">
+    <div class="qw">
+      <span class="haqs1">HAQQIMIZDA</span>
+    </div>
+    <br><br><br>
+    <span class="haqs3"><b>Qurulma Tarixi</b></span>
+    <span class="haqs2">Layihə 2020-ci ildə karantinada boş olub sıxıldığı üçün Abbas Muradzadə tərəfindən qurulub. </span>
+    <span class="haqs3"><b>Nailiyyətlər</b></span>
+    <span class="haqs2">Heç bir nailiyyətimizin olmadığını tam səmimiyətim ilə deyə bilərəm. İstəsəniz İnstagramda DM'ə yazın orda ətraflı bu barədə danışaq.</span>
+    <span class="haqs3"><b>Əməkdaşlar və Sponsorlar</b></span>
+    <span class="haqs2">Hal hazırda heçbir sponsorumuz yoxdur, ancaq sponsorluq etmək istəyən müraciət edə bilər. Bir ədəd 'Galik'inizin olmağı bəs edir.</span>
+  </div>
+  </div>
+  </scroll-page>
+</scroll-container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<scroll-container>
+<scroll-page id="elaqe">
+
+<div class="topcontact">
+  <div class="container contact-form">
+            <form method="post">
+                <h3>Bizə Mesaj Göndərin</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Adınız *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Email Adresiniz *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Telefon Nömrəniz *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Mesajı Göndər" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Mesajınız*" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+  </div>
+</div>
+</scroll-page>
+</scroll-container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4 bg-dark text-white">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item ">
+          <a class="btn-floating btn-fb mx-1 ">
+            <i class="fab fa-facebook-f fa-2x fa1"> </i>
+          </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter fa-2x fa1"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g fa-2x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in fa-2x fa2"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble fa-2x fa2"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Created by:
+    <a style="color: white;" target="blank" href="https://instagram.com/abbasmuradzade/"> Abbas Muradzade</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+</body>
+</html>
